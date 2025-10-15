@@ -12,3 +12,5 @@ For achieving the main goal, several objectives are set:
 - To develop an infrastructure component for the fine-tuning of pre-trained large language models for Bulgarian.
 - To develop a component of the Infrastructure for evaluating the fine-tuning of large language models for Bulgarian.
 - To reach Technology Readiness Level 7 of the Infrastructure for Fine-Tuning Pre-Trained Large Language Models by integrating all components into a prototype demonstrating the operation of the Infrastructure for Fine-Tuning Large Language Models in a real-world environment.
+
+https://ifgpt.dcl.bas.bg/en/
