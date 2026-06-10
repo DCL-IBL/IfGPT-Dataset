@@ -24,8 +24,7 @@ The aim of the **IfGPT Dataset** is to avoid the redundant compilation of datase
 
 The metadata is organised and managed in a Neo4j graph database, with multiple node types (Document, License, Source) whose relations reflect the actual dependencies among the metadata categories. The resulting system of nodes and edges provides a flexible representation that supports both the extraction of subsets from the overall collection and the execution of secondary tasks of data analysis and statistical overview.
 
-
-Metadata is visualised here: https://ifgpt.dcl.bas.bg/ifgpt-dataset/
+Currently, metadata description is available on 690 thousand documents covering approx. 800 million words of text. The demonstration of metadata visualised and extraction of subdatasets is available here: https://ifgpt.dcl.bas.bg/ifgpt-dataset/
 
 ## Repository contents
 
@@ -38,6 +37,14 @@ Cypher queries used by the IfGPT search interface against the Neo4j database. In
 
 ### `ifgpt-dataset-search.js`
 Browser-side JavaScript that connects to Neo4j via `neo4j-driver` and powers the search widget. Builds Cypher queries dynamically from the filter form (licence category, licence, domain, year range, keywords), runs paginated searches (20 per page), renders results, and exports the full filtered result set as JSON in batches of 200.
+
+## Publications
+
+Koeva, Svetla & Ivelina Stoyanova. 2026. IfGPT, a Large Dataset Representing Bulgarian, with the Bulgarian National Corpus as Its Core. In Proceedings of the 12th Workshop on Challenges in the Management of Large Corpora (CMLC-12) @ LREC 2026, pp. 12–24. Palma de Mallorca, 11 May 2026. ELRA. ISBN 978-2-493814-67-8. Indexed in Scopus (via LREC), DBLP, ACL Anthology, WoS CPCI (via LREC). [PDF](http://lrec-conf.org/proceedings/lrec2026/workshops/cmlc/2026.cmlc-1.0.pdf)
+
+Koeva, Svetla & Ivelina Stoyanova. 2026. Recent Developments of the Bulgarian National Corpus. In Proceedings of the 12th Workshop on Challenges in the Management of Large Corpora (CMLC-12) @ LREC 2026, pp. 71–75. Palma de Mallorca, 11 May 2026. ELRA. ISBN 978-2-493814-67-8. Indexed in Scopus (via LREC), DBLP, ACL Anthology, WoS CPCI (via LREC). [PDF](http://lrec-conf.org/proceedings/lrec2026/workshops/cmlc/2026.cmlc-1.0.pdf)
+
+Koeva, Svetla, Stoyanova, Ivelina. 2026. A Model for Metadata Organisation and Management for Compilation of Specialised Datasets from Big Data. – Big Data and Cognitive Computing, MDPI. ISSN: 2504-2289. Q1 (Artificial Intelligence; Computer Science Applications; Information Systems); SJR 1.033; CiteScore 9.8. Indexed in Scopus, WoS (SSCI), DBLP, ERIH PLUS. DOI: https://doi.org/10.20944/preprints202605.1874.v1. [URL](https://www.preprints.org/manuscript/202605.1874) (Preprint)
 
 
 __________________________________________
