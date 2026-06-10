@@ -24,6 +24,9 @@ The aim of the **IfGPT Dataset** is to avoid the redundant compilation of datase
 
 The metadata is organised and managed in a Neo4j graph database, with multiple node types (Document, License, Source) whose relations reflect the actual dependencies among the metadata categories. The resulting system of nodes and edges provides a flexible representation that supports both the extraction of subsets from the overall collection and the execution of secondary tasks of data analysis and statistical overview.
 
+
+Metadata is visualised here: https://ifgpt.dcl.bas.bg/ifgpt-dataset/
+
 ## Repository contents
 
 
