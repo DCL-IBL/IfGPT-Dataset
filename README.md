@@ -16,7 +16,7 @@ The aim of the **IfGPT Dataset** is to avoid the redundant compilation of datase
 
 (c) Deploying and customising a set of tools in a chain for text cleaning, deduplication, detection of sensitive and biassed information to ensure the quality of the data.
 
-(d) Providing a uniform metadata description for all documents in the datasets and organising the metadata categories in a graph representation, originally proposed for the Bulgarian National Corpus \citep{koeva-etal-2012} and extended to the present \textbf{IfGPT} dataset.
+(d) Providing a uniform metadata description for all documents in the datasets and organising the metadata categories in a graph representation, originally proposed for the Bulgarian National Corpus \citep{koeva-etal-2012} and extended to the present **IfGPT** dataset.
 
 (e) Providing means to efficiently query metadata to find suitable text documents for a given LLM fine-tuning or Retrieval Augmented Generation (RAG) task.
 
